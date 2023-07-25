@@ -9,7 +9,7 @@
                     return (0, o.wg)(), (0, o.j4)(a);
                 }
                 var l = s(7139),
-                    a = s.p + '../img/sprite.339b677b.svg';
+                    a = '..' + s.p + 'img/sprite.339b677b.svg';
                 const n = a + '#plus',
                     c = a + '#minus',
                     h = { class: 'hero' },
