@@ -1,12 +1,12 @@
 (function () {
 	"use strict";
 	var e = {
-			1832: function (e, t, s) {
-				var o = s(9242),
-					r = s(3396);
-				function i(e, t, s, o, i, l) {
-					const a = (0, r.up)("HeroMain");
-					return (0, r.wg)(), (0, r.j4)(a);
+			2794: function (e, t, s) {
+				var r = s(9242),
+					o = s(3396);
+				function i(e, t, s, r, i, l) {
+					const a = (0, o.up)("HeroMain");
+					return (0, o.wg)(), (0, o.j4)(a);
 				}
 				var l = s(7139);
 				const a = { class: "hero" },
@@ -14,32 +14,32 @@
 					c = { class: "hero__table" },
 					h = { class: "hero__header" },
 					d = { class: "hero__row" },
-					_ = (0, r.uE)(
+					_ = (0, o.uE)(
 						'<div class="hero__cell hero__cell-header hero__col-vacancy">Вакансия</div><div class="hero__cell hero__cell-header hero__cell-header-name hero__col-name">ФИО</div><div class="hero__cell hero__cell-header hero__col-phone">Телефон</div><div class="hero__cell hero__cell-header hero__col-job">Должность</div><div class="hero__cell hero__cell-header hero__col-salary">ЗП</div><div class="hero__cell hero__cell-header hero__col-city">Город</div>',
 						6
 					),
 					u = { class: "hero__cell hero__cell-header hero__cell-header-buttons hero__col-buttons" },
-					p = (0, r._)("label", { class: "hero__label", for: "switch" }, " Toggle ", -1),
+					p = (0, o._)("label", { class: "hero__label", for: "switch" }, " Toggle ", -1),
 					w = { class: "hero__text-buttons" },
 					v = { class: "hero__cell hero__col-vacancy" },
-					g = { class: "hero__cell hero__col-name" },
-					m = { class: "hero__cell hero__col-phone" },
+					m = { class: "hero__cell hero__col-name" },
+					g = { class: "hero__cell hero__col-phone" },
 					y = { href: "tel:+79080788723" },
 					f = { class: "hero__cell hero__col-job" },
 					b = { class: "hero__cell hero__col-salary" },
 					S = { class: "hero__cell hero__col-city" },
 					k = { class: "hero__cell hero__col-buttons" },
 					x = ["href"],
-					D = (0, r._)(
+					D = (0, o._)(
 						"div",
 						{ class: "hero__container-icon" },
 						[
-							(0, r._)(
+							(0, o._)(
 								"svg",
 								{ viewBox: "0 0 25 25", class: "hero__icon-user", xmlns: "http://www.w3.org/2000/svg" },
 								[
-									(0, r._)("rect", { width: "25", height: "25", rx: "5" }),
-									(0, r._)("path", {
+									(0, o._)("rect", { width: "25", height: "25", rx: "5" }),
+									(0, o._)("path", {
 										class: "hero__icon-user-inner",
 										d: "M12.6 14.222c3.037 0 5.6.493 5.6 2.397 0 1.905-2.58 2.381-5.6 2.381-3.036 0-5.6-.494-5.6-2.398 0-1.904 2.58-2.38 5.6-2.38zM12.6 5a3.691 3.691 0 013.706 3.704 3.692 3.692 0 01-3.706 3.704 3.692 3.692 0 01-3.706-3.704A3.692 3.692 0 0112.6 5z",
 									}),
@@ -48,13 +48,13 @@
 						],
 						-1
 					),
-					M = (0, r._)("div", { class: "hero__container-button-inner" }, "Перейти", -1),
+					M = (0, o._)("div", { class: "hero__container-button-inner" }, "Перейти", -1),
 					$ = [D, M],
-					C = (0, r._)(
+					C = (0, o._)(
 						"div",
 						{ class: "hero__container-icon" },
 						[
-							(0, r._)(
+							(0, o._)(
 								"svg",
 								{
 									class: "hero__icon-plus",
@@ -63,7 +63,7 @@
 									xmlns: "http://www.w3.org/2000/svg",
 								},
 								[
-									(0, r._)("path", {
+									(0, o._)("path", {
 										d: "M10.062 0c2.334 0 3.665 1.318 3.665 3.658v6.41c0 2.328-1.325 3.66-3.658 3.66h-6.41C1.317 13.727 0 12.395 0 10.067v-6.41C0 1.318 1.318 0 3.658 0h6.404zM6.857 3.782a.568.568 0 00-.57.57v1.935H4.345a.595.595 0 00-.405.165.579.579 0 00.405.981h1.942v1.943a.57.57 0 101.14 0V7.433h1.949a.579.579 0 00.57-.576.568.568 0 00-.57-.57h-1.95V4.352a.568.568 0 00-.57-.57z",
 									}),
 								]
@@ -71,9 +71,9 @@
 						],
 						-1
 					),
-					L = (0, r._)("div", { class: "hero__container-button-inner" }, "CRM", -1),
-					j = [C, L],
-					A = { class: "hero__container-icon" },
+					L = (0, o._)("div", { class: "hero__container-button-inner" }, "CRM", -1),
+					A = [C, L],
+					j = { class: "hero__container-icon" },
 					H = {
 						key: 0,
 						class: "hero__icon-minus",
@@ -81,7 +81,7 @@
 						id: "minus",
 						xmlns: "http://www.w3.org/2000/svg",
 					},
-					F = (0, r._)(
+					F = (0, o._)(
 						"path",
 						{
 							"fill-rule": "evenodd",
@@ -99,8 +99,8 @@
 						id: "reverse-arrow",
 						xmlns: "http://www.w3.org/2000/svg",
 					},
-					R = (0, r._)("rect", { width: "25", height: "25", rx: "5" }, null, -1),
-					E = (0, r._)(
+					R = (0, o._)("rect", { width: "25", height: "25", rx: "5" }, null, -1),
+					E = (0, o._)(
 						"path",
 						{
 							fill: "white",
@@ -118,29 +118,29 @@
 					U = { class: "hero__text-pages hero__text-footer" },
 					B = { class: "hero__text-page" },
 					K = { class: "hero__text-page" },
-					Y = (0, r._)("button", { class: "btn-reset hero__button-control hero__button-prev" }, "Пред", -1),
-					W = (0, r._)("button", { class: "btn-reset hero__button-control hero__button-next" }, "След.", -1),
+					Y = (0, o._)("button", { class: "btn-reset hero__button-control hero__button-prev" }, "Пред", -1),
+					W = (0, o._)("button", { class: "btn-reset hero__button-control hero__button-next" }, "След.", -1),
 					Z = { class: "hero__text-onpage hero__text-footer" },
 					Q = ["value"];
 				function G(e, t, s, i, D, M) {
-					const C = (0, r.up)("HeroFilters"),
-						L = (0, r.up)("swiper-slide"),
-						F = (0, r.up)("swiper");
+					const C = (0, o.up)("HeroFilters"),
+						L = (0, o.up)("swiper-slide"),
+						F = (0, o.up)("swiper");
 					return (
-						(0, r.wg)(),
-						(0, r.iD)("section", a, [
-							(0, r._)("div", n, [
-								(0, r.Wm)(C, {
+						(0, o.wg)(),
+						(0, o.iD)("section", a, [
+							(0, o._)("div", n, [
+								(0, o.Wm)(C, {
 									onRedrawSlider: t[0] || (t[0] = (e) => M.redrawSlider()),
 									onSearchInputFilter: t[1] || (t[1] = (e) => M.searchInputFilter()),
 								}),
-								(0, r._)("div", c, [
-									(0, r._)("div", h, [
-										(0, r._)("div", d, [
+								(0, o._)("div", c, [
+									(0, o._)("div", h, [
+										(0, o._)("div", d, [
 											_,
-											(0, r._)("div", u, [
-												(0, r.wy)(
-													(0, r._)(
+											(0, o._)("div", u, [
+												(0, o.wy)(
+													(0, o._)(
 														"input",
 														{
 															class: "hero__input-checkbox",
@@ -153,14 +153,14 @@
 														null,
 														544
 													),
-													[[o.e8, D.switchText]]
+													[[r.e8, D.switchText]]
 												),
 												p,
-												(0, r._)("span", w, (0, l.zw)(D.actualText[D.switchText]), 1),
+												(0, o._)("span", w, (0, l.zw)(D.actualText[D.switchText]), 1),
 											]),
 										]),
 									]),
-									(0, r.Wm)(
+									(0, o.Wm)(
 										F,
 										{
 											modules: D.modules,
@@ -171,74 +171,74 @@
 											speed: D.mainSliderOptions.speed,
 										},
 										{
-											default: (0, r.w5)(() => [
-												((0, r.wg)(!0),
-												(0, r.iD)(
-													r.HY,
+											default: (0, o.w5)(() => [
+												((0, o.wg)(!0),
+												(0, o.iD)(
+													o.HY,
 													null,
-													(0, r.Ko)(
+													(0, o.Ko)(
 														e.$store.state.preparedSlides,
-														(s, o) => (
-															(0, r.wg)(),
-															(0, r.j4)(
+														(s, r) => (
+															(0, o.wg)(),
+															(0, o.j4)(
 																L,
-																{ key: o },
+																{ key: r },
 																{
-																	default: (0, r.w5)(() => [
-																		((0, r.wg)(!0),
-																		(0, r.iD)(
-																			r.HY,
+																	default: (0, o.w5)(() => [
+																		((0, o.wg)(!0),
+																		(0, o.iD)(
+																			o.HY,
 																			null,
-																			(0, r.Ko)(
+																			(0, o.Ko)(
 																				s,
-																				(s, o) => (
-																					(0, r.wg)(),
-																					(0, r.iD)(
+																				(s, r) => (
+																					(0, o.wg)(),
+																					(0, o.iD)(
 																						"div",
-																						{ class: "hero__row", key: o },
+																						{ class: "hero__row", key: r },
 																						[
-																							(0, r._)(
+																							(0, o._)(
 																								"div",
 																								v,
 																								(0, l.zw)(s.vacancy),
 																								1
 																							),
-																							(0, r._)(
+																							(0, o._)(
 																								"div",
-																								g,
+																								m,
 																								(0, l.zw)(s.id) +
 																									" " +
 																									(0, l.zw)(s.name),
 																								1
 																							),
-																							(0, r._)("div", m, [
-																								(0, r._)(
+																							(0, o._)("div", g, [
+																								(0, o._)(
 																									"a",
 																									y,
 																									(0, l.zw)(s.phone),
 																									1
 																								),
 																							]),
-																							(0, r._)(
+																							(0, o._)(
 																								"div",
 																								f,
 																								(0, l.zw)(s.job),
 																								1
 																							),
-																							(0, r._)(
+																							(0, o._)(
 																								"div",
 																								b,
 																								(0, l.zw)(s.salary),
 																								1
 																							),
-																							(0, r._)(
+																							(0, o._)(
 																								"div",
 																								S,
 																								(0, l.zw)(s.city),
 																								1
 																							),
-																							(0, r._)("div", k, [
-																								(0, r._)(
+																							(0, o._)("div", k, [
+																								(0, o._)(
 																									"a",
 																									{
 																										href: s.hhLink,
@@ -267,7 +267,7 @@
 																									40,
 																									x
 																								),
-																								(0, r._)(
+																								(0, o._)(
 																									"a",
 																									{
 																										href: "https://google.com",
@@ -291,10 +291,10 @@
 																													...e
 																												)),
 																									},
-																									j,
+																									A,
 																									32
 																								),
-																								(0, r._)(
+																								(0, o._)(
 																									"div",
 																									{
 																										class: "hero__container-button",
@@ -318,25 +318,25 @@
 																												)),
 																									},
 																									[
-																										(0, r._)(
+																										(0, o._)(
 																											"div",
-																											A,
+																											j,
 																											[
 																												e.$store
 																													.state
 																													.hideHiddenData
 																													? ((0,
-																													  r.wg)(),
+																													  o.wg)(),
 																													  (0,
-																													  r.iD)(
+																													  o.iD)(
 																															"svg",
 																															H,
 																															O
 																													  ))
 																													: ((0,
-																													  r.wg)(),
+																													  o.wg)(),
 																													  (0,
-																													  r.iD)(
+																													  o.iD)(
 																															"svg",
 																															P,
 																															I
@@ -346,8 +346,8 @@
 																										e.$store.state
 																											.hideHiddenData
 																											? ((0,
-																											  r.wg)(),
-																											  (0, r.iD)(
+																											  o.wg)(),
+																											  (0, o.iD)(
 																													"div",
 																													{
 																														key: 0,
@@ -365,8 +365,8 @@
 																													T
 																											  ))
 																											: ((0,
-																											  r.wg)(),
-																											  (0, r.iD)(
+																											  o.wg)(),
+																											  (0, o.iD)(
 																													"div",
 																													{
 																														key: 1,
@@ -408,20 +408,20 @@
 										8,
 										["modules", "navigation", "pagination", "thumbs", "slides-per-view", "speed"]
 									),
-									(0, r._)("div", V, [
-										(0, r._)("p", q, [
-											(0, r.Uk)(" Всего: "),
-											(0, r._)("span", N, (0, l.zw)(e.$store.state.rowsData.length), 1),
+									(0, o._)("div", V, [
+										(0, o._)("p", q, [
+											(0, o.Uk)(" Всего: "),
+											(0, o._)("span", N, (0, l.zw)(e.$store.state.rowsData.length), 1),
 										]),
-										(0, r._)("div", U, [
-											(0, r._)("span", B, [
-												(0, r.Uk)(" Страницы: "),
-												(0, r.wy)((0, r._)("span", K, "1", 512), [
-													[o.F8, 1 == M.preparedSlides.length],
+										(0, o._)("div", U, [
+											(0, o._)("span", B, [
+												(0, o.Uk)(" Страницы: "),
+												(0, o.wy)((0, o._)("span", K, "1", 512), [
+													[r.F8, 1 == M.preparedSlides.length],
 												]),
 											]),
 											Y,
-											(0, r.Wm)(
+											(0, o.Wm)(
 												F,
 												{
 													class: "hero__slider-pagination",
@@ -448,8 +448,8 @@
 												]
 											),
 											W,
-											(0, r.wy)(
-												(0, r._)(
+											(0, o.wy)(
+												(0, o._)(
 													"button",
 													{
 														class: "btn-reset hero__button-control hero__button-last",
@@ -461,13 +461,13 @@
 													" Последняя ",
 													512
 												),
-												[[o.F8, M.preparedSlides.length > 1]]
+												[[r.F8, M.preparedSlides.length > 1]]
 											),
 										]),
-										(0, r._)("p", Z, [
-											(0, r.Uk)(" На странице: "),
-											(0, r.wy)(
-												(0, r._)(
+										(0, o._)("p", Z, [
+											(0, o.Uk)(" На странице: "),
+											(0, o.wy)(
+												(0, o._)(
 													"select",
 													{
 														class: "hero__select",
@@ -475,15 +475,15 @@
 															t[11] || (t[11] = (t) => (e.$store.state.rowsPerSlide = t)),
 													},
 													[
-														((0, r.wg)(!0),
-														(0, r.iD)(
-															r.HY,
+														((0, o.wg)(!0),
+														(0, o.iD)(
+															o.HY,
 															null,
-															(0, r.Ko)(
+															(0, o.Ko)(
 																e.$store.state.pageCountOptions,
 																(e, t) => (
-																	(0, r.wg)(),
-																	(0, r.iD)(
+																	(0, o.wg)(),
+																	(0, o.iD)(
 																		"option",
 																		{ key: t, value: e },
 																		(0, l.zw)(e),
@@ -497,7 +497,7 @@
 													],
 													512
 												),
-												[[o.bM, e.$store.state.rowsPerSlide]]
+												[[r.bM, e.$store.state.rowsPerSlide]]
 											),
 										]),
 									]),
@@ -509,10 +509,10 @@
 				const J = { class: "filters hero__filters" },
 					X = { class: "filters__container" },
 					ee = { class: "switch" },
-					te = (0, r._)("span", { class: "filters__text-switch switch__text" }, "Отклики", -1),
-					se = (0, r._)("span", { class: "filters__text-switch switch__text" }, "Избранное", -1),
-					oe = [te, se],
-					re = { class: "filters__container-statuses" },
+					te = (0, o._)("span", { class: "filters__text-switch switch__text" }, "Отклики", -1),
+					se = (0, o._)("span", { class: "filters__text-switch switch__text" }, "Избранное", -1),
+					re = [te, se],
+					oe = { class: "filters__container-statuses" },
 					ie = ["onClick"],
 					le = { class: "filters__list" },
 					ae = { class: "filters__title filters__title-category" },
@@ -521,12 +521,12 @@
 					he = ["for"],
 					de = { class: "filters__container-buttons" };
 				function _e(e, t, s, i, a, n) {
-					const c = (0, r.up)("simplebar");
+					const c = (0, o.up)("simplebar");
 					return (
-						(0, r.wg)(),
-						(0, r.iD)("div", J, [
-							(0, r._)("div", X, [
-								(0, r._)(
+						(0, o.wg)(),
+						(0, o.iD)("div", J, [
+							(0, o._)("div", X, [
+								(0, o._)(
 									"div",
 									{
 										class: (0, l.C_)([
@@ -535,8 +535,8 @@
 										]),
 									},
 									[
-										(0, r._)("label", ee, [
-											(0, r._)(
+										(0, o._)("label", ee, [
+											(0, o._)(
 												"input",
 												{
 													type: "checkbox",
@@ -547,7 +547,7 @@
 												null,
 												32
 											),
-											(0, r._)(
+											(0, o._)(
 												"span",
 												{
 													class: (0, l.C_)([
@@ -555,14 +555,14 @@
 														{ "switch-active": a.isSwitchActive },
 													]),
 												},
-												oe,
+												re,
 												2
 											),
 										]),
 									],
 									2
 								),
-								(0, r._)(
+								(0, o._)(
 									"div",
 									{
 										class: (0, l.C_)([
@@ -571,8 +571,8 @@
 										]),
 									},
 									[
-										(0, r.wy)(
-											(0, r._)(
+										(0, o.wy)(
+											(0, o._)(
 												"input",
 												{
 													onClick: t[1] || (t[1] = (e) => (a.isInputActive = !0)),
@@ -583,14 +583,14 @@
 														t[2] || (t[2] = (t) => (e.$store.state.searchPhrase = t)),
 													onKeyup:
 														t[3] ||
-														(t[3] = (0, o.D2)((e) => n.handleSearchInput(), ["enter"])),
+														(t[3] = (0, r.D2)((e) => n.handleSearchInput(), ["enter"])),
 												},
 												null,
 												544
 											),
-											[[o.nr, e.$store.state.searchPhrase]]
+											[[r.nr, e.$store.state.searchPhrase]]
 										),
-										(0, r._)(
+										(0, o._)(
 											"button",
 											{
 												class: "filters__button-search",
@@ -601,9 +601,9 @@
 									],
 									2
 								),
-								(0, r._)("div", re, [
-									(0, r.wy)(
-										(0, r._)(
+								(0, o._)("div", oe, [
+									(0, o.wy)(
+										(0, o._)(
 											"input",
 											{
 												type: "text",
@@ -619,9 +619,9 @@
 											null,
 											2
 										),
-										[[o.nr, e.$store.state.selectedStatus]]
+										[[r.nr, e.$store.state.selectedStatus]]
 									),
-									(0, r._)(
+									(0, o._)(
 										"ul",
 										{
 											class: (0, l.C_)([
@@ -630,15 +630,15 @@
 											]),
 										},
 										[
-											((0, r.wg)(!0),
-											(0, r.iD)(
-												r.HY,
+											((0, o.wg)(!0),
+											(0, o.iD)(
+												o.HY,
 												null,
-												(0, r.Ko)(
+												(0, o.Ko)(
 													e.$store.state.statusesList,
 													(e, t) => (
-														(0, r.wg)(),
-														(0, r.iD)(
+														(0, o.wg)(),
+														(0, o.iD)(
 															"li",
 															{
 																class: "filters__item-select",
@@ -658,7 +658,7 @@
 									),
 								]),
 							]),
-							(0, r._)(
+							(0, o._)(
 								"div",
 								{
 									class: (0, l.C_)([
@@ -667,42 +667,42 @@
 									]),
 								},
 								[
-									(0, r._)("div", le, [
-										((0, r.wg)(!0),
-										(0, r.iD)(
-											r.HY,
+									(0, o._)("div", le, [
+										((0, o.wg)(!0),
+										(0, o.iD)(
+											o.HY,
 											null,
-											(0, r.Ko)(
+											(0, o.Ko)(
 												e.$store.state.categotyFilterList,
 												(e, t) => (
-													(0, r.wg)(),
-													(0, r.iD)("div", { class: "filters__item", key: t }, [
-														(0, r._)("h4", ae, (0, l.zw)(e.ru), 1),
-														(0, r._)("div", ne, [
-															(0, r.Wm)(
+													(0, o.wg)(),
+													(0, o.iD)("div", { class: "filters__item", key: t }, [
+														(0, o._)("h4", ae, (0, l.zw)(e.ru), 1),
+														(0, o._)("div", ne, [
+															(0, o.Wm)(
 																c,
 																{
 																	"data-simplebar-auto-hide": "false",
 																	style: { "max-height": "81px" },
 																},
 																{
-																	default: (0, r.w5)(() => [
-																		((0, r.wg)(!0),
-																		(0, r.iD)(
-																			r.HY,
+																	default: (0, o.w5)(() => [
+																		((0, o.wg)(!0),
+																		(0, o.iD)(
+																			o.HY,
 																			null,
-																			(0, r.Ko)(
+																			(0, o.Ko)(
 																				n.getUniqueItems(e.en),
 																				(t, s) => (
-																					(0, r.wg)(),
-																					(0, r.iD)(
+																					(0, o.wg)(),
+																					(0, o.iD)(
 																						"div",
 																						{
 																							class: "filters__category",
 																							key: s,
 																						},
 																						[
-																							(0, r._)(
+																							(0, o._)(
 																								"input",
 																								{
 																									class: "filters__checkbox",
@@ -726,7 +726,7 @@
 																								40,
 																								ce
 																							),
-																							(0, r._)(
+																							(0, o._)(
 																								"label",
 																								{
 																									class: "filters__label",
@@ -736,7 +736,7 @@
 																								8,
 																								he
 																							),
-																							(0, r.Uk)(
+																							(0, o.Uk)(
 																								" " + (0, l.zw)(t),
 																								1
 																							),
@@ -758,8 +758,8 @@
 											128
 										)),
 									]),
-									(0, r._)("div", de, [
-										(0, r._)(
+									(0, o._)("div", de, [
+										(0, o._)(
 											"button",
 											{
 												class: "filters__button filters__button-clear",
@@ -769,7 +769,7 @@
 											" Сбросить ",
 											512
 										),
-										(0, r._)(
+										(0, o._)(
 											"button",
 											{
 												class: "filters__button filters__button-apply",
@@ -812,15 +812,14 @@
 								newFilterHandler(e, t) {
 									if (!this.blockToggleCheckbox) {
 										let s = this.checkExistingFilter(e);
-										console.log(s),
-											-1 == s
-												? this.$store.commit("addNewFilter", e)
-												: this.$store.commit("deleteOldFilter", e),
-											console.log(this.$store.state.filterModel.job),
+										-1 == s
+											? this.$store.commit("addNewFilter", e)
+											: this.$store.commit("deleteOldFilter", e),
 											(this.blockToggleCheckbox = !0),
 											setTimeout(() => {
-												(this.blockToggleCheckbox = !1), console.log("unblocked");
-											}, 1e3),
+												this.blockToggleCheckbox = !1;
+											}, 300),
+											console.log(this.$store.state.filterModel),
 											t.target.classList.toggle("filters__checkbox-active");
 									}
 								},
@@ -857,7 +856,10 @@
 									this.$store.commit("clearFilterModelStatus"), this.toggleListVisibility();
 								},
 								handleSearchInput() {
-									this.$emit("searchInputFilter"), this.$emit("redrawSlider");
+									this.removeAllChecked(),
+										this.$store.commit("clearFilterModel"),
+										this.$emit("searchInputFilter"),
+										this.$emit("redrawSlider");
 								},
 							},
 							computed: {
@@ -876,8 +878,8 @@
 						}),
 					we = s(89);
 				const ve = (0, we.Z)(pe, [["render", _e]]);
-				var ge = ve,
-					me = s(4870),
+				var me = ve,
+					ge = s(4870),
 					ye = s(4528),
 					fe = s(1008),
 					be = {
@@ -910,14 +912,14 @@
 								modules: [fe.W_, fe.tl, fe.o3, fe.Qr],
 							};
 						},
-						components: { HeroFilters: ge, Swiper: ye.tq, SwiperSlide: ye.o5 },
+						components: { HeroFilters: me, Swiper: ye.tq, SwiperSlide: ye.o5 },
 						setup() {
-							const e = (0, me.iH)(null),
-								t = (0, me.iH)(null),
+							const e = (0, ge.iH)(null),
+								t = (0, ge.iH)(null),
 								s = (t) => {
 									e.value = t;
 								},
-								o = (e) => {
+								r = (e) => {
 									t.value = e;
 								};
 							return {
@@ -925,7 +927,7 @@
 								thumbsSwiper: e,
 								setThumbsSwiper: s,
 								mainSwiper: t,
-								setMainSwiper: o,
+								setMainSwiper: r,
 							};
 						},
 						methods: {
@@ -933,11 +935,11 @@
 								const e = document.querySelectorAll(".hero__col-name"),
 									t = document.querySelectorAll(".hero__col-phone"),
 									s = document.querySelectorAll(".hero__col-job"),
-									o = document.querySelectorAll(".hero__col-vacancy"),
-									r = document.querySelectorAll(".hero__col-salary"),
+									r = document.querySelectorAll(".hero__col-vacancy"),
+									o = document.querySelectorAll(".hero__col-salary"),
 									i = document.querySelectorAll(".hero__col-city"),
 									l = document.querySelectorAll(".hero__col-buttons"),
-									a = [e, t, s, o, r, i, l];
+									a = [e, t, s, r, o, i, l];
 								for (let n = 0; n < a.length; n++)
 									a[n].forEach((e) => {
 										(e.onmouseenter = () => {
@@ -1294,8 +1296,8 @@
 						mutations: {
 							makePreparedSlides(e, t) {
 								for (let s = 0; s < t.length; s += e.rowsPerSlide) {
-									const o = t.slice(s, s + e.rowsPerSlide);
-									e.preparedSlides.push(o);
+									const r = t.slice(s, s + e.rowsPerSlide);
+									e.preparedSlides.push(r);
 								}
 							},
 							clearPreparedSlides(e) {
@@ -1313,22 +1315,22 @@
 							},
 							makeFilteredSlides(e, t) {
 								let s = [],
-									o = "";
+									r = "";
 								for (const c in e.filterModel)
 									if (Object.hasOwnProperty.call(e.filterModel, c)) {
-										const r = e.filterModel[c];
-										if (r.length > 0) {
-											r.forEach((e) => {
+										const o = e.filterModel[c];
+										if (o.length > 0) {
+											o.forEach((e) => {
 												t.forEach((t) => {
 													t[c] == e && s.push(t);
 												});
 											}),
-												(o = c);
+												(r = c);
 											break;
 										}
 									}
-								let r = Object.keys(e.filterModel),
-									i = r[r.indexOf(o) + 1],
+								let o = Object.keys(e.filterModel),
+									i = o[o.indexOf(r) + 1],
 									l = [];
 								void 0 !== i && e.filterModel[i].length > 0
 									? s.forEach((t) => {
@@ -1337,9 +1339,9 @@
 											});
 									  })
 									: (l = s),
-									(o = i);
+									(r = i);
 								let a = [];
-								(i = r[r.indexOf(o) + 1]),
+								(i = o[o.indexOf(r) + 1]),
 									void 0 !== i && e.filterModel[i].length > 0
 										? l.forEach((t) => {
 												e.filterModel[i].forEach((e) => {
@@ -1347,9 +1349,9 @@
 												});
 										  })
 										: (a = l),
-									(o = i);
+									(r = i);
 								let n = [];
-								(i = r[r.indexOf(o) + 1]),
+								(i = o[o.indexOf(r) + 1]),
 									void 0 !== i && e.filterModel[i].length > 0
 										? l.forEach((t) => {
 												e.filterModel[i].forEach((e) => {
@@ -1412,8 +1414,8 @@
 									const t = e.rowsData.filter((t) => {
 										for (const s in t)
 											if (Object.hasOwnProperty.call(t, s) && e.searchableKeys.includes(s)) {
-												const o = t[s];
-												if (o.includes(e.searchPhrase)) return t;
+												const r = t[s];
+												if (r.includes(e.searchPhrase)) return t;
 											}
 									});
 									(e.rowsData = t), e.currentSearchCounter++;
@@ -1423,34 +1425,34 @@
 						actions: {},
 						modules: {},
 					});
-				(0, o.ri)(Me).use(Ce).mount("#app");
+				(0, r.ri)(Me).use(Ce).mount("#app");
 			},
 		},
 		t = {};
-	function s(o) {
-		var r = t[o];
-		if (void 0 !== r) return r.exports;
-		var i = (t[o] = { exports: {} });
-		return e[o].call(i.exports, i, i.exports, s), i.exports;
+	function s(r) {
+		var o = t[r];
+		if (void 0 !== o) return o.exports;
+		var i = (t[r] = { exports: {} });
+		return e[r].call(i.exports, i, i.exports, s), i.exports;
 	}
 	(s.m = e),
 		(function () {
 			var e = [];
-			s.O = function (t, o, r, i) {
-				if (!o) {
+			s.O = function (t, r, o, i) {
+				if (!r) {
 					var l = 1 / 0;
 					for (h = 0; h < e.length; h++) {
-						(o = e[h][0]), (r = e[h][1]), (i = e[h][2]);
-						for (var a = !0, n = 0; n < o.length; n++)
+						(r = e[h][0]), (o = e[h][1]), (i = e[h][2]);
+						for (var a = !0, n = 0; n < r.length; n++)
 							(!1 & i || l >= i) &&
 							Object.keys(s.O).every(function (e) {
-								return s.O[e](o[n]);
+								return s.O[e](r[n]);
 							})
-								? o.splice(n--, 1)
+								? r.splice(n--, 1)
 								: ((a = !1), i < l && (l = i));
 						if (a) {
 							e.splice(h--, 1);
-							var c = r();
+							var c = o();
 							void 0 !== c && (t = c);
 						}
 					}
@@ -1458,7 +1460,7 @@
 				}
 				i = i || 0;
 				for (var h = e.length; h > 0 && e[h - 1][2] > i; h--) e[h] = e[h - 1];
-				e[h] = [o, r, i];
+				e[h] = [r, o, i];
 			};
 		})(),
 		(function () {
@@ -1476,7 +1478,7 @@
 		})(),
 		(function () {
 			s.d = function (e, t) {
-				for (var o in t) s.o(t, o) && !s.o(e, o) && Object.defineProperty(e, o, { enumerable: !0, get: t[o] });
+				for (var r in t) s.o(t, r) && !s.o(e, r) && Object.defineProperty(e, r, { enumerable: !0, get: t[r] });
 			};
 		})(),
 		(function () {
@@ -1499,30 +1501,30 @@
 			s.O.j = function (t) {
 				return 0 === e[t];
 			};
-			var t = function (t, o) {
-					var r,
+			var t = function (t, r) {
+					var o,
 						i,
-						l = o[0],
-						a = o[1],
-						n = o[2],
+						l = r[0],
+						a = r[1],
+						n = r[2],
 						c = 0;
 					if (
 						l.some(function (t) {
 							return 0 !== e[t];
 						})
 					) {
-						for (r in a) s.o(a, r) && (s.m[r] = a[r]);
+						for (o in a) s.o(a, o) && (s.m[o] = a[o]);
 						if (n) var h = n(s);
 					}
-					for (t && t(o); c < l.length; c++) (i = l[c]), s.o(e, i) && e[i] && e[i][0](), (e[i] = 0);
+					for (t && t(r); c < l.length; c++) (i = l[c]), s.o(e, i) && e[i] && e[i][0](), (e[i] = 0);
 					return s.O(h);
 				},
-				o = (self["webpackChunkhh_cabinet_vue"] = self["webpackChunkhh_cabinet_vue"] || []);
-			o.forEach(t.bind(null, 0)), (o.push = t.bind(null, o.push.bind(o)));
+				r = (self["webpackChunkhh_cabinet_vue"] = self["webpackChunkhh_cabinet_vue"] || []);
+			r.forEach(t.bind(null, 0)), (r.push = t.bind(null, r.push.bind(r)));
 		})();
-	var o = s.O(void 0, [998], function () {
-		return s(1832);
+	var r = s.O(void 0, [998], function () {
+		return s(2794);
 	});
-	o = s.O(o);
+	r = s.O(r);
 })();
-//# sourceMappingURL=app.e4346e89.js.map
+//# sourceMappingURL=app.385da03c.js.map
