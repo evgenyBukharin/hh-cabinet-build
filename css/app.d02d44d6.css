@@ -240,7 +240,7 @@
 	right: 13px;
 	width: 25px;
 	height: 25px;
-	background: url(../img/triangle.1a9383ee.svg) no-repeat;
+	background: url(../img/triangle.7f18a859.svg) no-repeat;
 	background-position: 50%;
 	pointer-events: none;
 }
@@ -473,6 +473,7 @@
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 22px;
+	text-decoration: none;
 }
 .switch__text:first-child {
 	color: var(--white-color);
@@ -1507,7 +1508,7 @@ button.swiper-pagination-bullet {
 	font-size: 12px;
 	font-weight: 400;
 	margin-left: 11px;
-	background: url(../img/down-arrow.a0d63ee4.svg) no-repeat var(--white-color);
+	background: url(../img/down-arrow.51c6877b.svg) no-repeat var(--white-color);
 	background-size: 17px 9px;
 	background-position-x: 75%;
 	background-position-y: 50%;

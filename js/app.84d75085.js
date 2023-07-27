@@ -1,7 +1,7 @@
 (function () {
 	"use strict";
 	var e = {
-			7424: function (e, t, s) {
+			9321: function (e, t, s) {
 				var r = s(9242),
 					o = s(3396);
 				function i(e, t, s, r, i, l) {
@@ -206,9 +206,7 @@
 																							(0, o._)(
 																								"div",
 																								m,
-																								(0, l.zw)(s.id) +
-																									" " +
-																									(0, l.zw)(s.name),
+																								(0, l.zw)(s.name),
 																								1
 																							),
 																							(0, o._)("div", g, [
@@ -510,7 +508,12 @@
 					X = { class: "filters__container" },
 					ee = { class: "switch" },
 					te = (0, o._)("span", { class: "filters__text-switch switch__text" }, "Отклики", -1),
-					se = (0, o._)("span", { class: "filters__text-switch switch__text" }, "Избранное", -1),
+					se = (0, o._)(
+						"a",
+						{ href: "./favorites.html", target: "_blank", class: "filters__text-switch switch__text" },
+						"Избранное",
+						-1
+					),
 					re = [te, se],
 					oe = { class: "filters__container-statuses" },
 					ie = ["onClick"],
@@ -543,6 +546,7 @@
 													id: "switch-input",
 													onChange:
 														t[0] || (t[0] = (e) => (a.isSwitchActive = !a.isSwitchActive)),
+													disabled: "",
 												},
 												null,
 												32
@@ -1521,8 +1525,8 @@
 			r.forEach(t.bind(null, 0)), (r.push = t.bind(null, r.push.bind(r)));
 		})();
 	var r = s.O(void 0, [998], function () {
-		return s(7424);
+		return s(9321);
 	});
 	r = s.O(r);
 })();
-//# sourceMappingURL=app.4d4be108.js.map
+//# sourceMappingURL=app.84d75085.js.map
